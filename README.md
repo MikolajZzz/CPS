@@ -90,3 +90,9 @@ Frontend będzie dostępny pod adresem: http://localhost:4200
 | POST | `/api/polls/{id}/votes` | Głosowanie |
 | GET | `/api/polls/{id}/votes` | Wyniki głosowania |
 
+## Otwarcie Bazy Danych
+
+- Otwórz  http://localhost:8080/h2-console
+- Login: sa
+- Hasło: password
+- Adres bazy: jdbc:h2:file:./h2db/voteagh
