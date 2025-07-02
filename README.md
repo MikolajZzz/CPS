@@ -11,22 +11,22 @@ Aplikacja składa się z dwóch części:
 
 ## Szybki Start
 
-pobierz node.js
+### Pobierz node.js
 https://nodejs.org/en/download
 
-###Konfiguracja JAVA_HOME
+### Konfiguracja JAVA_HOME
 
-Kliknij prawym przyciskiem na Ten komputer → Właściwości.
-Wybierz Zaawansowane ustawienia systemu.
-Kliknij Zmienne środowiskowe.
-W sekcji Zmienne systemowe kliknij Nowa...
-Nazwa zmiennej:
-JAVA_HOME
-Wartość zmiennej:
-wklej ścieżkę do katalogu JDK(lokalizacja Javy)
-Zatwierdź OK
+-Kliknij prawym przyciskiem na Ten komputer → Właściwości.
+-Wybierz Zaawansowane ustawienia systemu.
+-Kliknij Zmienne środowiskowe.
+-W sekcji Zmienne systemowe kliknij Nowa...
+-Nazwa zmiennej:
+-JAVA_HOME
+-Wartość zmiennej:
+-wklej ścieżkę do katalogu JDK(lokalizacja Javy)
+-Zatwierdź OK
 
-W Zmienne środowiskowe znajdź zmienną Path i dodaj na jej końcu:
+### W Zmienne środowiskowe znajdź zmienną Path i dodaj na jej końcu:
 %JAVA_HOME%\bin
 
 ### Backend
